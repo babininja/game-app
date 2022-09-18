@@ -2,7 +2,7 @@
 
 First copy .env.example and paste with .env name.
 then edit .env file and put your database config in it.
-just run following commands
+and in the end just run following commands:
 
 - `composer install`
 - `php artisan key:generate`
