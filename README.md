@@ -1,9 +1,13 @@
 ## How to install
 
+First copy .env.example and paste with .env name.
+then edit .env file and put your database config in it.
 just run following commands
 
-- if composer not installed run `composer install`
-- `php artisan migrate --seed`
+- `composer install`
+- `php artisan key:generate`
+- `php artisan migrate`
+- `php artisan db:seed`
 - `php artisan serve`
 
 now you can see website in your browser with this url
